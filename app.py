@@ -320,7 +320,6 @@ if prompt := st.chat_input("Ej: ¿Cuál es mi artista más escuchado?"):
                 st.error("No he podido interpretar la respuesta. Intenta reformular la pregunta.")
             except Exception as e:
                 st.error("Ha ocurrido un error al generar la visualización. Intenta reformular la pregunta.")
-                st.write(repr(e))
 
 
 # ============================================================
